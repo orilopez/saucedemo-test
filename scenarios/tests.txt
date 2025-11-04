@@ -1,0 +1,5 @@
+Scenario 1: Open ParaBank and register a new user
+    1. Open ParaBank
+    2. Click Register link
+    3. Complete register form and create user
+    4. Verify user creation success message
