@@ -1,8 +1,8 @@
-import { defineConfig } from "@playwright/test";
+import { defineConfig } from '@playwright/test';
 
 export default defineConfig({
 	testDir: "./tests",
-	timeout: 30 * 1000,
+	timeout: 30_000,
 	retries: 0,
 	workers: 1, // Run tests sequentially to maintain single browser session
 	fullyParallel: false, // Ensure tests run sequentially, not in parallel
@@ -11,7 +11,7 @@ export default defineConfig({
 			name: "sandbox",
 			use: {
 				baseURL:
-					process.env["BASE_URL"] || "https://parabank.parasoft.com/",
+					process.env["BASE_URL"] || "https://www.saucedemo.com/",
 				headless: false,
 				channel: "chrome",
 				viewport: { width: 1280, height: 720 },

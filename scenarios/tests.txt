@@ -1,5 +1,22 @@
-Scenario 1: Open ParaBank and register a new user
-    1. Open ParaBank
-    2. Click Register link
-    3. Complete register form and create user
-    4. Verify user creation success message
+Scenario 1: Open Saucedemo and login with a valid user
+    1. Open Saucedemo
+    2. Complete the form and login
+    4. Verify user arrives at the products view
+
+Scenario 2: Open Saucedemo and purchase various items
+    1. Open Saucedemo
+    2. Navigate the products view
+    3. Add diferent items from the Inventory view
+    4. Then enter one of the products and add the item
+    4. Check the cart 
+    5. Complete the checkout information
+    6. Finish the purchase 
+
+Scenario 3: Open Saucedemo and log out
+    1. Open Saucedemo and login
+    2. Once on the Inventory page, open the sidepanel 
+    3. Tap on Logout 
+
+Scenario 4: Filter items
+    1. Open Saucedemo
+    2. Once on the Inventory page filter the items by price
